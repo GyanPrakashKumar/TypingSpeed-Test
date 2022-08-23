@@ -1,4 +1,4 @@
 ﻿# TypingSpeed-Test
 
-
-https://github.com/GyanPrakashKumar/TypingSpeed-Test
+Live at 👉🏼
+https://gyanprakashkumar.github.io/TypingSpeed-Test/
