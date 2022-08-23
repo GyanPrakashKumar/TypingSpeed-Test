@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c065ff78d9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'DynaPuff', cursive;
+        }
+    </style>
+    <title>Typing Test | Using JS</title>
+</head>
+
+<body>
+    <nav class="flex flex-row justify-around text-4xl">
+        <a href="">TT</a>
+        <a href="https://github.com/GyanPrakashKumar"><i class="fa fa-github"></i></a>
+    </nav>
+    <div class="flex h-screen justify-center items-center flex-col bg-[url('./background.jpg')] bg-cover">
+        <h1 class="sm:text-5xl text-3xl font-bold text-white text-center m-5">Test Your Typing Speed</h1>
+        <h2 id="test" class="w-9/12 sm:text-xl text-xl text-white text-center m-5 pl-2 border-l-8 border-indigo-500 bg-gray-700">
+        </h2>
+        <div class="w-9/12 sm:h-40 h-32">
+            <textarea placeholder="Type newly generated text ..."
+                class="p-2 bg-gray-200 w-full h-full text-xl border-2 border-indigo-500" id="text"></textarea>
+        </div>
+        <button class="text-black p-2 m-5 rounded-md ring-2 ring-white bg-green-200" id="btn">Start</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
